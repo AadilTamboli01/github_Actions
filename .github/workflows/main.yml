@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: greetings
-        run: echo:"hello from aadil"
+        run: echo "hello from aadil"
         
      
      
