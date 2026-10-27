@@ -5,10 +5,13 @@ on:
 
 jobs:
   my:
-   runs-on: ubuntu-latest
-   steps:
-     - name: first-step
-       run: echo "printing machine"
+    runs-on: ubuntu-latest
+    steps:
+      - name: first-step
+        run: echo "printing machine"
+  
+
+
        
 
        
