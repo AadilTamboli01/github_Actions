@@ -1,14 +1,14 @@
-name: my schedule workflow
-on: 
+name: schedule jobs
+on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: '*/5 * * * *'
 
 jobs:
-  my:
+  myschedule:
     runs-on: ubuntu-latest
     steps:
-      - name: first-step
-        run: echo "printing machine"
+      - name: first_step
+        run: echo "printing in schedule jobs"
   
 
 
