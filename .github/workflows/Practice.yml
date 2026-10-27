@@ -1,1 +1,14 @@
+name: my workflow
+on: 
+  push:
+    branches: [main]
 
+jobs:
+  print:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: printing_Name
+        run: echo"Hello From Aadil"
+  
+  
